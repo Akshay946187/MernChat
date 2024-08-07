@@ -8,10 +8,15 @@
     ],
     "routes": [
       {
-        "src": "/(.*)",
+        "src": "/api/(.*)",
         "dest": "/backend/index.js"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/backend/dist/index.html"
       }
     ]
   }
+  
   
   
